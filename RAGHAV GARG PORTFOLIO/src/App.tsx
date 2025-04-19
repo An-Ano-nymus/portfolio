@@ -155,15 +155,11 @@ const App = () => {
               </div>
               <div className="md:w-2/5">
                 <div className="relative">
-                  <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-indigo-400 to-blue-600 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto relative">
-                    <iframe
-                      src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7149431635644891136"
-                      className="absolute inset-0 w-full h-full"
-                      frameBorder="0"
-                      allowFullScreen
-                      title="LinkedIn Video"
-                    ></iframe>
-                  </div>
+                  <img 
+                    src="https://media.licdn.com/dms/image/v2/D5603AQEgEoeqvCxjng/profile-displayphoto-shrink_800_800/B56ZZJ1pPzGUAg-/0/1744995522540?e=1750291200&v=beta&t=KPlgA7UNoHl1J2ohgHuCxe-R224JO7CmWfGiAEOx4qU"
+                    alt="Raghav Garg"
+                    className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl mx-auto"
+                  />
                   <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-88 md:h-88 border-2 border-amber-400 rounded-full" />
                   <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 md:w-96 md:h-96 border-2 border-dashed border-indigo-300 rounded-full animate-spin-slow" />
                 </div>
@@ -735,4 +731,3 @@ const TimelineItem = ({ year, title, organization, position, description }) => {
 };
 
 export default App;
-
